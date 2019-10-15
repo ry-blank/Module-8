@@ -11,4 +11,10 @@ from datetime import date, timedelta
 
 
 def half_birthday(b_day):
-    pass
+    """
+    function for half birthday
+    :param b_day: most recent birthday
+    :return: half birthday
+    """
+    half_b_day = b_day + timedelta(days=182.5)
+    return half_b_day
