@@ -19,4 +19,5 @@ def switch_average(key):
         "A": 1,
         "B": 2,
         "C": 3,
+        "D": 4
     }.get(key, KeyError)
