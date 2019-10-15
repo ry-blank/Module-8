@@ -9,5 +9,12 @@ to return the value of a key.
 """
 
 
-def switch_average():
-    pass
+def switch_average(key):
+    """
+    function to use dict to mimic switch
+    :param key: key of value to be found
+    :return: value of key or KeyError message
+    """
+    return {
+        "A": 1,
+    }.get(key, KeyError)
